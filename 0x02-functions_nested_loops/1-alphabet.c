@@ -2,11 +2,12 @@
 #include "main.h"
 
 /**
- * main - Check description
+ * print_alphabet- Check description
  * Description: It prints the all alphabet in lowercase follwed by a new line.
  * Return: 0.
  */
-int print_alphabet(){
+int print_alphabet(void)
+{
 
 	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
